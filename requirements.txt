@@ -1,0 +1,40 @@
+# =========================
+# Dev platform
+# =========================
+notebook
+
+# =========================
+# Core
+# =========================
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# =========================
+# Data / ML
+# =========================
+pandas
+numpy
+scikit-learn
+joblib
+
+# =========================
+# NLP (Chinese-friendly)
+# =========================
+regex
+jieba
+
+# =========================
+# Optional: Embeddings / LLM (enable later)
+# =========================
+sentence-transformers
+openai
+
+# =========================
+# Dev / Quality
+# =========================
+pytest
+black
+ruff
+
